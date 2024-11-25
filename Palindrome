@@ -1,0 +1,8 @@
+# CODE FOR A PALINDROME
+
+word = input("Enter a word: ")
+p = bool(word.find(word[::-1])+1)
+if p == True:
+    print("The entered word is a palindrome")
+else:
+    print("The entered word is not a palindrome")
